@@ -1,0 +1,29 @@
+{
+  "name": "examen",
+  "description": "api para examen técnico",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "tar": "^7.4.3",
+    "winston": "^3.17.0",
+    "yauzl-promise": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.5.0"
+  }
+}
